@@ -1,0 +1,62 @@
+{
+  "bot-account": {
+    "username": "Liza",
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "DMPY.aternos.me",
+    "port": 42312,
+    "version": "1.12.2"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": "12345678"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true,
+      "jump": true,
+      "rotate": true,
+
+      "hit": {
+        "enabled": true,
+        "delay": 1000,
+        "attack-mobs": false
+      },
+
+      "circle-walk": {
+        "enabled": true,
+        "radius": 2
+      }
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages": [
+        "Server is running!",
+        "Server is still running!",
+        "Server is running!!",
+        "."
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 5000
+  }
+}
